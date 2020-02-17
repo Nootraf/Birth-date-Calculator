@@ -13,7 +13,7 @@ There aren't any Known Bugs in this application.
 *CSS
 *JavaScript
 
-##Behaviour Driven Development(BDD)
+## Behaviour Driven Development(BDD)
 Once the user keys inn their birth date,month and year and submits it,the application responds by assigning them their Akan name,depending on their respective gender.Below is an ilustration:
 
 input                       |    output
