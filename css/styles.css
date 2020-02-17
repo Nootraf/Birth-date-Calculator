@@ -1,0 +1,21 @@
+body {
+    background-color: ivory;
+    padding: 20px;
+}
+
+p {
+    font-style: italic;
+}
+
+h1 {
+    font-style: inherit;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+}
+
+input #we {
+    text-align: center;
+}
