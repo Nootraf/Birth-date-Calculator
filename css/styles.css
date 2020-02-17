@@ -1,6 +1,9 @@
 body {
-    background-color: ivory;
+    /* background-color: blue; */
     padding: 20px;
+    background-image: url("https://bit.ly/38yRWOZ");
+    background-repeat: no-repeat;
+    background-size: 1500px;
 }
 
 p {
