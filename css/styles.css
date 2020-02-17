@@ -8,9 +8,11 @@ body {
 
 p {
     font-style: italic;
+    color: white;
 }
 
 h1 {
     font-style: inherit;
     text-align: center;
+    color: thistle;
 }
