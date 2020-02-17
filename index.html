@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/JavaScript">
     <title>Akan Naming</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -11,8 +12,20 @@
     <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably
         more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
     <p>Now get ready to discover your own Akan name, even though you might not be Ghanian!</p>
-    <script>
-    </script>
+    <form>
+        <label>Year</label><br>
+        <input type="text" id="year" placeholder="Year born"><br>
+        <div class="label">
+            <label>Month</label><br>
+            <input type="text" id="month" placeholder="Month born"><br>
+            <label>Day</label><br>
+            <input type="text" id="day" placeholder="Day born"><br>
+            <label>Gender</label><br>
+            <input type="radio" id="gender" name="gender" value="male">Male<br>
+            <input type="radio" id="gender" name="gender" value="female">Female<br>
+            <input type="submit" onclick="giveAkanName()" value="Submit">
+        </div>
+    </form>
 </body>
 
 </html>
